@@ -46,11 +46,13 @@ val config = BantechChatLibrary.config(
     customerId = "a02026b80b3f4c04bce4eef8297863d8",
     customerToken = "708254251"
 )
-
 {
     wsAppKey = "your_pusher_app_key"      // Optional
+    
     wsHost = "custom.bantech.ae"          // Optional (default: ws.bantech.ae)
+    
     apiBaseUrl = "https://custom-api.bantech.ae/api/" // Optional (default: https://ai-chatbot.bantech.ae/api/)
+    
 }
 
 val chatView = BantechChatLibrary.createChatView(this, config)
